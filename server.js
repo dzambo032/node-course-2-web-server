@@ -6,7 +6,7 @@ var app = express();
 
 hbs.registerPartials(__dirname + '/views/partials')
 app.set('view engine', 'hbs');
-
+// neki komentar
 
 app.use((req, res, next) => {
     var now = new Date().toString();
